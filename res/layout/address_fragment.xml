@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/ProfileRowOuterLinearLayout" >
+
+        <LinearLayout style="@style/ProfileRowInnerLinearLayout" >
+
+            <TextView
+                style="@style/ProfileTextViewLabel"
+                android:text="Address" />
+
+            <TextView
+                android:id="@+id/address1TextTv"
+                style="@style/ProfileTextViewText" />
+
+            <TextView
+                android:id="@+id/address2TextTv"
+                style="@style/ProfileTextViewText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/ProfileRowOuterLinearLayout" >
+
+        <LinearLayout style="@style/ProfileRowInnerLinearLayout" >
+
+            <TextView
+                style="@style/ProfileTextViewLabel"
+                android:text="City" />
+
+            <TextView
+                android:id="@+id/cityTextTv"
+                style="@style/ProfileTextViewText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/ProfileRowOuterLinearLayout" >
+
+        <LinearLayout style="@style/ProfileRowInnerLinearLayout" >
+
+            <TextView
+                style="@style/ProfileTextViewLabel"
+                android:text="Country" />
+
+            <TextView
+                android:id="@+id/countryTextTv"
+                style="@style/ProfileTextViewText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/ProfileRowOuterLinearLayout" >
+
+        <LinearLayout style="@style/ProfileRowInnerLinearLayout" >
+
+            <TextView
+                style="@style/ProfileTextViewLabel"
+                android:text="Mobile No" />
+
+            <TextView
+                android:id="@+id/mobileNoTextTv"
+                style="@style/ProfileTextViewText" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

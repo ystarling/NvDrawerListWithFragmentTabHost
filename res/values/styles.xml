@@ -1,0 +1,100 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    
+     <!-- Profile . -->
+
+
+    <!--
+     android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/profile_row_item_bg_color"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+    -->
+
+    <style name="ProfileRowOuterLinearLayout" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dip</item>
+       <!--  <item name="android:background">@color/profile_row_item_bg_color</item> -->
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--
+         android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginBottom ="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/profile_row_item_bg_color"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+    -->
+
+    <style name="ProfileRowInnerLinearLayout" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">2dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginRight">10dip</item>
+       <!--  <item name="android:background">@color/profile_row_item_bg_color</item> -->
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--
+       android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                 android:textColor="#7E1C11"
+    -->
+
+    <style name="ProfileTextViewLabel" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+       <!--  <item name="android:textColor">@color/profile_label_fore_color</item> -->
+    </style>
+
+    <!--
+           android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+               
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                 android:textColor="#F8EE95"
+                 android:background="#123948"
+                android:textSize="20sp"
+    -->
+
+    <style name="ProfileTextViewText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginLeft">10dip</item>
+       <!--  <item name="android:textColor">@color/profile_content_fore_color</item> -->
+        <item name="android:background">#123948</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    
+</resources>

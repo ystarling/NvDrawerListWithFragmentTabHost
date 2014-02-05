@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/ProfileRowOuterLinearLayout" >
+
+        <LinearLayout style="@style/ProfileRowInnerLinearLayout" >
+
+            <TextView
+                style="@style/ProfileTextViewLabel"
+                android:text="CUSTOMER ID" />
+
+            <TextView
+                android:id="@+id/customerIdTextTv"
+                style="@style/ProfileTextViewText"
+                android:text="Text" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/ProfileRowOuterLinearLayout" >
+
+        <LinearLayout style="@style/ProfileRowInnerLinearLayout" >
+
+            <TextView
+                style="@style/ProfileTextViewLabel"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/customerNameTextTv"
+                style="@style/ProfileTextViewText"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/ProfileRowOuterLinearLayout" >
+
+        <LinearLayout style="@style/ProfileRowInnerLinearLayout" >
+
+            <TextView
+                style="@style/ProfileTextViewLabel"
+                android:text="Father&apos;s Name" />
+
+            <TextView
+                android:id="@+id/fathersNameTextTv"
+                style="@style/ProfileTextViewText"
+                android:layout_width="fill_parent"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/ProfileRowOuterLinearLayout" >
+
+        <LinearLayout style="@style/ProfileRowInnerLinearLayout" >
+
+            <TextView
+                style="@style/ProfileTextViewLabel"
+                android:text="Mother&apos;s Name" />
+
+            <TextView
+                android:id="@+id/mothersNameTextTv"
+                style="@style/ProfileTextViewText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/ProfileRowOuterLinearLayout" >
+
+        <LinearLayout style="@style/ProfileRowInnerLinearLayout" >
+
+            <TextView
+                style="@style/ProfileTextViewLabel"
+                android:text="D.O.B" />
+
+            <TextView
+                android:id="@+id/dobTextTv"
+                style="@style/ProfileTextViewText" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
