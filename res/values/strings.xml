@@ -18,7 +18,7 @@
     <string name="app_name">Nv Drawer List Example</string>
     <string-array name="left_array">
         <item>Customer Profile</item>
-        <item>Accounts</item>
+        <item>Transfer</item>
        
     </string-array>
     
