@@ -1,5 +1,7 @@
-package com.example.nvdrawerlistexample;
+package com.example.nvdrawerlistwithtabhostswipe;
 
+
+import com.example.nvdrawerlistexample.R;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

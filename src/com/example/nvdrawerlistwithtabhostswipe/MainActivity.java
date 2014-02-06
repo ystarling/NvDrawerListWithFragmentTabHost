@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 
-package com.example.nvdrawerlistexample;
+package com.example.nvdrawerlistwithtabhostswipe;
+
+import com.example.nvdrawerlistexample.R;
 
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.Fragment;
@@ -205,14 +207,14 @@ public class MainActivity extends FragmentActivity {
 		switch (position) {
 		case 0: // Profile
 
-			fragment = new CustomerProfileFragmentTabHost();
+			fragment = new ProfileFragmentTabHostSwipe();
 			break;
 
 	
 			
 		case 1: // Transaction
 
-			fragment = new TransactionFragmentTabHost();
+			fragment = new TransactionFragmentTabHostSwipe();
 			break;
 
 

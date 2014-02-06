@@ -58,7 +58,8 @@ public final class R {
         public static final int profile_fragment=0x7f030004;
         public static final int source_fragment=0x7f030005;
         public static final int tab_fragment=0x7f030006;
-        public static final int transfer_fragment=0x7f030007;
+        public static final int tabs_with_viewpager=0x7f030007;
+        public static final int transfer_fragment=0x7f030008;
     }
     public static final class menu {
         public static final int main=0x7f080000;
